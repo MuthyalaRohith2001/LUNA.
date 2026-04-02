@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "LUNA",
+  "builds": [
+    {
+      "src": "server.js",
+      "user": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}

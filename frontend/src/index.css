@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+#root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Custom utility */
+@layer utilities {
+  .bg-rabbit-red {
+    background-color: black;
+  }
+}
+
+/* ===== Custom horizontal scrollbar (WORKS 100%) ===== */
+.custom-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: rgba(30, 30, 30, 0.5); /* rose-500 */
+  border-radius: 999px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(30, 30, 30, 0.8);
+}
