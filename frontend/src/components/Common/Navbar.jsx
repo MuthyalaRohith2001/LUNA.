@@ -121,7 +121,7 @@ const Navbar = () => {
         </div>
         <div className="p-4">
           <h2 className="text-xl font-semibold mb-4">
-            {/*
+            
            <nav className="space-y-4">
               <Link
                 to="#"
@@ -151,7 +151,7 @@ const Navbar = () => {
               >
                 Bottom Wear
               </Link>
-            </nav> */}
+            </nav> 
           </h2>
         </div>
       </div>
